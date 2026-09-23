@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>The Wyckoff Loft · Comedy in Bushwick</title>
+<meta name="description" content="Bushwick's forty-seat comedy room. Stand-up upstairs on Wyckoff Ave. Free RSVP, 21+, BYOB.">
+<meta property="og:title" content="The Wyckoff Loft"><meta property="og:description" content="Bushwick's forty-seat comedy room. Free RSVP · 21+ · BYOB.">
+<meta property="og:image" content="https://www.wyckoffloft.com/logo.png"><meta property="og:url" content="https://www.wyckoffloft.com/">
+<link rel="icon" href="/favicon.png"><style>html, body, #root { margin: 0; min-height: 100%; }
+body { background: #11120f; }
+:root { --acid: #dfff20; --cream: #f4f0e7; --muted: #aaa99f; --black: #11120f; }
+.venue { background: var(--black); color: var(--cream); font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; }
+.hero { display: grid; grid-template-columns: minmax(260px,.8fr) 1.2fr; gap: 54px; padding: 56px 0 70px; align-items: center; border-bottom: 1px solid #3b3b35; }
+.hero img { width: 100%; filter: contrast(1.05); }
+.kicker,.section-label,.free,.date { color: var(--acid); font-size: 12px; letter-spacing: .18em; font-weight: 800; }
+h1,h2,h3,p { margin-top: 0; }
+h1 { font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; text-transform: uppercase; font-size: clamp(46px,7vw,88px); line-height: .91; letter-spacing: -.03em; margin: 18px 0 24px; }
+.hero-copy > p { color: #c7c5bc; max-width: 570px; line-height: 1.7; }
+.cta { display: inline-block; margin-top: 16px; padding: 14px 18px; background: var(--acid); color: #11120f; text-decoration: none; font-weight: 900; letter-spacing: .08em; }
+section { padding: 54px 0; border-bottom: 1px solid #3b3b35; }
+.section-label { margin-bottom: 24px; }
+.feature { display: grid; grid-template-columns: 170px 1fr; gap: 40px; background: var(--cream); color: var(--black); padding: 34px; transform: rotate(-.25deg); box-shadow: 9px 9px 0 var(--acid); }
+.big-date { border-right: 4px solid var(--black); display:flex; flex-direction:column; align-items:center; justify-content:center; text-align:center; }
+.big-date span { font-weight:900; letter-spacing:.14em; }
+.big-date strong { font-family: Impact, sans-serif; font-size: 84px; line-height: .95; }
+.feature h2,.about h2 { font-family: Impact, sans-serif; text-transform: uppercase; font-size: clamp(36px,5vw,64px); line-height:.95; margin: 10px 0 16px; }
+.feature-line { font-weight:900; font-size:18px; }
+.feature-note { max-width:620px; line-height:1.6; }
+.text-link { color:var(--black); font-weight:900; text-decoration-thickness:2px; }
+.poster-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:18px; }
+.poster { min-height:220px; padding:26px; border:1px solid #5a5a51; background: repeating-linear-gradient(-10deg,#181914,#181914 9px,#1a1b16 9px,#1a1b16 10px); }
+.poster:nth-child(2),.poster:nth-child(3) { background:#22231d; }
+.poster h3 { font-family:Impact,sans-serif; text-transform:uppercase; font-size:44px; line-height:.95; margin:32px 0 18px; }
+.lineup { font-weight:800; line-height:1.5; }
+.note { color:var(--muted); font-size:13px; }
+.about { display:grid; grid-template-columns:1fr 1fr; gap:56px; }
+.about-copy p { color:#c7c5bc; line-height:1.75; }
+footer { display:grid; grid-template-columns:100px 1fr auto; gap:28px; padding:42px 0 18px; align-items:center; color:var(--muted); font-size:12px; line-height:1.7; }
+footer img { width:100px; }
+footer a { color:var(--cream); }
+@media(max-width:700px){ .hero{grid-template-columns:1fr;gap:28px;padding-top:28px}.hero img{max-width:300px}.feature{grid-template-columns:1fr;padding:24px}.big-date{border-right:0;border-bottom:4px solid var(--black);padding-bottom:18px;flex-direction:row;gap:16px}.big-date strong{font-size:60px}.poster-grid,.about{grid-template-columns:1fr}footer{grid-template-columns:70px 1fr}footer>div:last-child{grid-column:2}.poster{min-height:190px} }
+
+.wrap { max-width: 1120px; margin: 0 auto; padding: 0 32px; }
+.topbar { display:flex; justify-content:space-between; align-items:center; padding:22px 0; border-bottom:1px solid #3b3b35; font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; color: var(--cream); }
+.topbar strong { font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; text-transform:uppercase; font-size:22px; letter-spacing:.02em; }
+.topbar nav a { color: var(--muted); text-decoration:none; font-size:12px; letter-spacing:.16em; margin-left:22px; }
+.topbar nav a:hover { color: var(--acid); }
+.poster .status { float:right; color: var(--muted); font-size:11px; letter-spacing:.16em; }
+.poster.past { opacity:.72; }
+.closing { color: var(--muted); font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; font-size:12px; padding: 0 0 40px; }
+@media(max-width:700px){ .wrap{padding:0 20px} .topbar nav a{margin-left:12px} }
+</style></head>
+<body><div class="venue"><div class="wrap">
+<header class="topbar"><strong>The Wyckoff Loft</strong><nav><a href="#shows">SHOWS</a><a href="#about">THE ROOM</a></nav></header>
+<main>
+<section class="hero"><img src="/logo.png" alt="The Wyckoff Loft wordmark"><div class="hero-copy"><div class="kicker">BUSHWICK · BROOKLYN</div><h1>Comedy upstairs.<br>Forty chairs, give or take.</h1><p>A small room for stand-up, half-finished ideas, and local voices. Wyckoff Ave between Stockholm and Stanhope. Exact door comes with RSVP.</p><a class="cta" href="https://www.instagram.com/nycwyckoffloft/">RSVP: DM @NYCWYCKOFFLOFT</a></div></section>
+<section class="upcoming" id="shows"><div class="section-label">UP NEXT</div><div class="feature"><div class="big-date"><span>SAT · SEP</span><strong>26</strong><span>8 PM</span></div><div><div class="free">FREE RSVP · BYOB</div><h2>Brickwork</h2><p class="feature-line">Anika Bell · Tomas Reed · Miles Wren</p><p class="feature-note">A tight hour in the back room with Anika Bell, Tomas Reed, and Miles Wren. Doors 7:30, show 8. Limited free RSVP; seating is first come, and the room is upstairs.</p><a class="text-link" href="https://www.instagram.com/nycwyckoffloft/">DM @nycwyckoffloft to RSVP →</a></div></div></section>
+<section class="archive"><div class="section-label">FALL NIGHTS</div><div class="poster-grid"><article class="poster past"><div class="date">SAT · SEP 12<span class="status">PAST</span></div><h3>Soft Open</h3><p class="lineup">Lila Moreno · Devon Pike · Mara Voss</p><p class="note">new sets, low ceilings</p></article><article class="poster"><div class="date">SAT · SEP 26<span class="status">UPCOMING</span></div><h3>Brickwork</h3><p class="lineup">Anika Bell · Tomas Reed · Miles Wren</p><p class="note">a tight hour in the back room</p></article><article class="poster"><div class="date">SAT · OCT 10<span class="status">UPCOMING</span></div><h3>Loose Change</h3><p class="lineup">Rae Santos · Eli March · Nia Brooks</p><p class="note">stand-up and one short story</p></article><article class="poster"><div class="date">SAT · OCT 24<span class="status">UPCOMING</span></div><h3>Overhead Lights</h3><p class="lineup">Samir Vale · June Parke · Cal Foster</p><p class="note">late show · no drink minimum</p></article></div></section>
+<section class="about" id="about"><div><div class="section-label">THE ROOM</div><h2>Built for the set you don't do anywhere else.</h2></div><div class="about-copy"><p>The Wyckoff Loft is a tiny, performer-run comedy room above Wyckoff Avenue. We do two or three nights a month: stand-up, story shows and the occasional odd format that needs a forgiving crowd.</p><p>No drink minimum. No velvet rope. One narrow flight of stairs, so the room is unfortunately not wheelchair accessible. Ages 21+ unless the listing says otherwise.</p></div></section>
+<footer><img src="/logo.png" alt=""><div><strong>The Wyckoff Loft</strong><br>Wyckoff Ave between Stockholm &amp; Stanhope<br>Bushwick, Brooklyn</div><div><a href="https://www.instagram.com/nycwyckoffloft/">@nycwyckoffloft</a><br><span>RSVP by DM</span></div></footer>
+</main><p class="closing">Shows are free unless noted. DM @nycwyckoffloft on Instagram to RSVP and get the exact entrance.</p>
+</div></div></body></html>
